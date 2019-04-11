@@ -2,11 +2,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
+  height: 100vh;
+  padding: 10px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  height: 90vh;
+  overflow: auto;
 }
 
 .book-card {
